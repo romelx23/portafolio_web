@@ -1,0 +1,143 @@
+{
+    "data":[
+        {
+            "id":1,
+            "name":"Department App",
+            "description":"Aplicación de filtro de departamentos",
+            "url":"https://61ec7a38b0f7b6aa33038fb8--reverent-fermat-8fcb38.netlify.app/",
+            "photUrl":["https://res.cloudinary.com/react-romel/image/upload/v1645397669/depart_pwcobz.png","https://media.discordapp.net/attachments/839620709517230081/966802860090208307/unknown.png?width=1354&height=676"],
+            "repoUrl":"https://github.com/romelx23/department-app",
+            "technologies":[
+                "React",
+                "typeScript",
+                "Sass",
+                "Context API"
+            ]
+        },
+        {
+            "id":2,
+            "name":"Clon Netflix",
+            "description":"Clon de Netflix donde puedes guardar tu lista de paliculas",
+            "url":"https://netflix-clone523.netlify.app/",
+            "photUrl":["https://res.cloudinary.com/react-romel/image/upload/v1645397674/netflix-clon_vfxfuj.png","https://media.discordapp.net/attachments/839620709517230081/966803961065635850/unknown.png?width=1335&height=676","https://media.discordapp.net/attachments/839620709517230081/966803595292999721/unknown.png?width=1345&height=676","https://media.discordapp.net/attachments/839620709517230081/966804659140456508/unknown.png?width=1332&height=676"],
+            "repoUrl":"https://github.com/romelx23/netflix-clone",
+            "technologies":[
+                "React",
+                "typeScript",
+                "Sass",
+                "Redux",
+                "firebase"
+            ]
+        },
+        {
+            "id":3,
+            "name":"Clon de Intagram",
+            "description":"Aplicación de la red social instagram",
+            "url":"https://frosty-poitras-e19d7f.netlify.app/",
+            "photUrl":["https://res.cloudinary.com/react-romel/image/upload/v1645397668/instagram-app_tdeczc.png","https://media.discordapp.net/attachments/839620709517230081/966804954801115186/unknown.png?width=1343&height=676","https://media.discordapp.net/attachments/839620709517230081/966805015371075655/unknown.png?width=1341&height=676","https://media.discordapp.net/attachments/839620709517230081/966805093733244950/unknown.png?width=1339&height=676","https://media.discordapp.net/attachments/839620709517230081/966805752201236490/unknown.png?width=1014&height=676"],
+            "repoUrl":"https://github.com/romelx23/instagram_clone",
+            "technologies":[
+                "React",
+                "JavaScript",
+                "Sass",
+                "Redux",
+                "firebase"
+            ]
+        },
+        {
+            "id":4,
+            "name":"Food App",
+            "description":"Aplicación de compra de comida",
+            "url":"https://61eccce1b0f7b624d5039035--dazzling-mestorf-6350a2.netlify.app",
+            "photUrl":["https://res.cloudinary.com/react-romel/image/upload/v1645397669/food-app_bo5iir.png","https://media.discordapp.net/attachments/839620709517230081/966806638122123324/unknown.png?width=885&height=676"],
+            "repoUrl":"https://github.com/romelx23/food-app",
+            "technologies":[
+                "React",
+                "typeScript",
+                "Sass",
+                "Context API"
+            ]
+        },
+        {
+            "id":5,
+            "name":"Travel App",
+            "description":"Aplicación de viajes usando Tailwind",
+            "url":"https://unruffled-babbage-db2100.netlify.app/",
+            "photUrl":["https://media.discordapp.net/attachments/839620709517230081/966806937662533702/unknown.png?width=1020&height=676"],
+            "repoUrl":"https://github.com/romelx23/travel-project",
+            "technologies":[
+                "React",
+                "typeScript",
+                "Tailwind"
+            ]
+        },
+        {
+            "id":6,
+            "name":"Clon de LinkedIn",
+            "description":"Aplicación red social LinkedIn",
+            "url":"https://fervent-archimedes-83a484.netlify.app",
+            "photUrl":["https://res.cloudinary.com/react-romel/image/upload/v1645397671/linkedin-clon_pq6ejn.png","https://media.discordapp.net/attachments/839620709517230081/966807972355391578/unknown.png?width=1330&height=676","https://media.discordapp.net/attachments/839620709517230081/966808142417633310/unknown.png?width=1333&height=676","https://media.discordapp.net/attachments/839620709517230081/966808222386245792/unknown.png?width=1335&height=676","https://media.discordapp.net/attachments/839620709517230081/966808306834346034/unknown.png?width=1314&height=676","https://media.discordapp.net/attachments/839620709517230081/966808362446635108/unknown.png?width=1348&height=676","https://media.discordapp.net/attachments/839620709517230081/966808430423703552/unknown.png?width=1332&height=676"],
+            "repoUrl":"https://github.com/romelx23/linkedin-clon",
+            "technologies":[
+                "React",
+                "typeScript",
+                "Tailwind",
+                "Redux",
+                "firebase"
+            ]
+        },
+        {
+            "id":7,
+            "name":"Gif App Angular",
+            "description":"Aplicación de Gifs",
+            "url":"https://620e68f0dd5cb018fc93105d--mystifying-mayer-0d8e9f.netlify.app/",
+            "photUrl":["https://res.cloudinary.com/react-romel/image/upload/v1645397672/gif-app-angular_btbue1.png","https://media.discordapp.net/attachments/839620709517230081/967579085469544509/unknown.png?width=1341&height=676"],
+            "repoUrl":"https://github.com/romelx23/gif-app-angular",
+            "technologies":[
+                "Angular",
+                "TypeScript",
+                "Sass"
+            ]
+        },
+        {
+            "id":8,
+            "name":"Paises App",
+            "description":"Aplicación de Países usando angular y tailwind",
+            "url":"https://serene-jang-f8fb0a.netlify.app/",
+            "photUrl":["https://media.discordapp.net/attachments/839620709517230081/966812689215139850/unknown.png?width=1330&height=676","https://media.discordapp.net/attachments/839620709517230081/966812325610938438/unknown.png?width=1335&height=676","https://media.discordapp.net/attachments/839620709517230081/966812792294346822/unknown.png?width=1330&height=676","https://media.discordapp.net/attachments/839620709517230081/966812957986131989/unknown.png?width=1333&height=676"],
+            "repoUrl":"https://github.com/romelx23/country-app",
+            "technologies":[
+                "Angular",
+                "Tailwind"
+            ]
+        },
+        {
+            "id":9,
+            "name":"Mangas App",
+            "description":"Aplicación de Mangas",
+            "url":"https://mangas-anime321.netlify.app/",
+            "photUrl":["https://res.cloudinary.com/react-romel/image/upload/v1645397850/mangas-app_toznmz.png","https://media.discordapp.net/attachments/839620709517230081/966810435288465438/unknown.png?width=1016&height=676"],
+            "repoUrl":"https://github.com/romelx23/mangasapp",
+            "technologies":[
+                "React",
+                "typeScript",
+                "Sass",
+                "Context API"
+            ]
+        },
+        {
+            "id":10,
+            "name":"Pokemon App",
+            "description":"Aplicación de Pokemon hecha con next",
+            "url":"https://pokemon-static-red.vercel.app/",
+            "photUrl":["https://media.discordapp.net/attachments/839620709517230081/966811269401309204/unknown.png?width=1339&height=676","https://media.discordapp.net/attachments/839620709517230081/966811430747775056/unknown.png?width=1352&height=676","https://media.discordapp.net/attachments/839620709517230081/966811534435180554/unknown.png?width=1352&height=676"],
+            "repoUrl":"https://github.com/romelx23/pokemon-static",
+            "technologies":[
+                "React",
+                "typeScript",
+                
+                "Context API"
+            ]
+        }
+    ]
+}

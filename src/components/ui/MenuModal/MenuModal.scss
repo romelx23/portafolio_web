@@ -1,0 +1,75 @@
+$bg-primary:#00ade1;
+$bg-secondary:#ff6493;
+$bg-tertary:#ffdd1c;
+$bg-forty:#00dc82;
+.content__menu{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    position: relative;
+    li{
+        position: relative;
+        list-style: none;
+        a{
+            font-size: 4em;
+            text-decoration: none;
+            line-height: 1em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: transparent;
+            -webkit-text-stroke: 1px rgb(255,255,255,.5);
+            &::before{
+                content: attr(data-text);
+                position: absolute;
+                color: $bg-primary;
+                width: 0;
+                overflow: hidden;
+                transition: 1s;
+                border-right:8px solid $bg-primary;
+                -webkit-text-stroke: 1px $bg-primary;
+            }
+            &:hover:before{
+                width: 100%;
+                filter: drop-shadow(0 0 25px $bg-primary);
+            }
+        }
+    }
+    li:nth-of-type(2){
+        a{
+            -webkit-text-stroke: 1px rgb(255,255,255,.5);
+            &::before{
+                color: $bg-secondary;
+                border-right:8px solid $bg-secondary;
+                -webkit-text-stroke: 1px $bg-secondary;
+            }
+            &:hover:before{
+                filter: drop-shadow(0 0 25px $bg-secondary);
+            }
+        }
+    }
+    li:nth-of-type(3){
+        a{
+            &::before{
+                color: $bg-tertary;
+                border-right:8px solid $bg-tertary;
+                -webkit-text-stroke: 1px $bg-tertary;
+            }
+            &:hover:before{
+                filter: drop-shadow(0 0 25px $bg-tertary);
+            }
+        }
+    }
+    li:nth-of-type(4){
+        a{
+            &::before{
+                color: $bg-forty;
+                border-right:8px solid $bg-forty;
+                -webkit-text-stroke: 1px $bg-forty;
+            }
+            &:hover:before{
+                filter: drop-shadow(0 0 25px $bg-forty);
+            }
+        }
+    }
+}

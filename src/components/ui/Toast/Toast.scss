@@ -1,0 +1,31 @@
+.opacity{
+    opacity: 1;
+}
+.hidden{
+    opacity: 0;
+}
+
+.content__toast{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    transition: opacity .3s ease-in-out;
+    z-index: 40px;
+}
+
+.toast{
+    // width:200px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    border-radius: 5px;
+    padding: 1rem;
+    opacity: .9;
+    font-weight: 600;
+    svg{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}

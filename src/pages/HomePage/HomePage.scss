@@ -6,7 +6,7 @@
     // flex-wrap: wrap;
     display: grid;
     width: calc(100% - 2rem);
-    grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
     place-items: center;
     gap:20px;
     padding: 1rem;
@@ -15,7 +15,7 @@
     z-index: 20;
 }
 .home__title{
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: #fff;
     text-transform: capitalize;
@@ -28,8 +28,11 @@
     z-index: 10;
 }
 
-@media screen and (max-width: 420px){
+@media screen and (min-width: 420px){
+    .home__title{
+        font-size: 2rem;
+    }
     .container__projects{
-        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(370px, 1fr));
     }
 }

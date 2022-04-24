@@ -41,8 +41,8 @@ export const CardProject: FC<Props> = ({ portafolio }) => {
       transition={{
         duration: 0.5,
       }}
+      className="card__project"
     >
-      <div className="card__project">
         <h1 className="card__title">{title}</h1>
         <div className="card__project-image">
           <img
@@ -72,7 +72,6 @@ export const CardProject: FC<Props> = ({ portafolio }) => {
             </svg>
           </button>
         </div>
-      </div>
     </motion.div>
   );
 };

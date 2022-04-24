@@ -1,6 +1,6 @@
 .card__project{
     display:flex;
-    width:100%;
+    // width:100%;
     min-height: 250px;
     flex-direction: column;
     justify-content: center;
@@ -61,6 +61,6 @@
 
 @media screen and (min-width: 768px){
     .card__project{
-        width: 350px;
+        // width: 350px;
     }
 }

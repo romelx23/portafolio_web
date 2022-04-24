@@ -83,7 +83,7 @@
     margin-bottom: 10px;
 }
 .decoration{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     text-decoration: 5px underline wavy #5855ff;
     margin-bottom: 20px;
 }
@@ -139,6 +139,9 @@
 }
 
 @media screen and (min-width:768px){
+    .decoration{
+        font-size: 1.8rem;
+    }
     .about__list{
         flex-direction: row;
         flex-wrap: wrap;

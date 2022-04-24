@@ -124,7 +124,9 @@ export const Chips: FC<Props> = ({ chip }) => {
         {
             select.map((tech) => (
                 <div className="chip" key={tech.name} style={{background:tech.background}}>
-                    <img src={tech.url} alt={tech.name} />
+                    <img src={tech.url} alt={tech.name} 
+                      className="chip-icon"
+                    />
                     <span>{tech.name}</span>
                 </div>
             ))

@@ -4,13 +4,11 @@ import { ModalContext } from "../../../context/modal/ModalContext";
 import { PortafolioContext } from "../../../context/portfolio/PortafolioContext";
 import { Chips } from "../Chip/Chips";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { AnimatePresence, motion } from "framer-motion";
 
 // Import Swiper styles
 import "swiper/css";
 
 export const ModalDescription = () => {
-  const slideImage = useRef<HTMLImageElement>(null);
   const { toggleModal } = useContext(ModalContext);
   const { selectedProject } = useContext(PortafolioContext);
   const {
@@ -44,7 +42,7 @@ export const ModalDescription = () => {
           />
         </svg>
       </button>
-      <h1>{name}</h1>
+      <h1 className="modal__title">{name}</h1>
       <p>{description}</p>
       <p>Tecnologías</p>
       <div className="modal__technologies">

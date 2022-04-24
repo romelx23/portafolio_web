@@ -8,13 +8,13 @@
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    // height: 5rem;
     border-top-left-radius: .5rem;
     border-top-right-radius: .5rem;
     overflow: hidden;
     transform: translateY(0%);
     transition: translate 0.3s ease-in-out;
     font-size: 14px;
+    z-index: 30;
 }
 .bottom__bar li{
     width: 100%;
@@ -25,6 +25,7 @@
 .bottom__bar li a{
     text-decoration: none;
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     color: #fff;
@@ -40,7 +41,7 @@
     }
     p{
         font-weight: 600;
-        margin-right: 0.5rem;
+        margin:0;
     }
     &.active{
         background: #3725fb;
@@ -53,6 +54,9 @@
 @media screen and (min-width: 768px){
     .bottom__bar{
         transform: translateY(100%);
+        & li a{
+            flex-direction: row;
+        }
     }
 }
 
@@ -61,7 +65,7 @@
         transform: scale(1) translateY(0%);
     }
     50% {
-        transform: scale(1.5);
+        transform: scale(1.3);
         // translateY(-50%)
     }
     100% {

@@ -6,12 +6,13 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    padding: 1rem;
-    h1{
-        font-size: 2.5rem;
+    overflow-y:auto;
+    overscroll-behavior-y: contain;
+    // padding: 1rem;
+    .modal__title{
+        font-size: 1.5rem;
         font-weight: bold;
         color: #fff;
-        // text-transform: capitalize;
         margin-bottom: 1rem;
     }
     p{
@@ -68,9 +69,9 @@
 }
 
 .content__buttons{
-    margin-top: 40px;
     display: flex;
     gap: 1rem;
+    margin-top: 10px;
     .btn__repo{
         text-decoration: none;
         color: #fff;
@@ -96,8 +97,14 @@
 }
 
 @media screen and (min-width: 768px){
+    .modal__title{
+        font-size: 2.5rem;
+    }
+    .content__buttons{
+        margin-top: 40px;
+    }
     .modal__description{
-        width: calc(100% - 30rem);
+        width: calc(100% - 3rem);
         .modal__img{
             width: 500px;
             height: 260px;

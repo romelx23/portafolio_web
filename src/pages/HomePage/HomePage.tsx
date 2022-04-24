@@ -45,9 +45,6 @@ export const HomePage = () => {
               <CardSqueleton />
             </>
           )}
-          <Modal>
-            <ModalDescription />
-          </Modal>
         </motion.div>
         <div className="content__icon">
           <AnimateIcon/>

@@ -3,6 +3,8 @@ import { BottomBar } from "../../ui/BottomBar/BottomBar";
 import { Navbar } from "../../ui/Navbar/Navbar";
 // import { Helmet } from "react-helmet";
 import "./Layout.scss";
+import { Modal } from '../../ui/Modal/Modal';
+import { ModalDescription } from '../../ui/ModalDescription/ModalDescription';
 interface LayoutProps {
   children: React.ReactNode;
   title?: string;
@@ -18,6 +20,9 @@ export const Layout: FC<LayoutProps> = ({ children, title, image }) => {
       <Navbar />
       <div className="container">{children}</div>
       <BottomBar />
+      <Modal>
+        <ModalDescription />
+      </Modal>
     </div>
   );
 };

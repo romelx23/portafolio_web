@@ -97,14 +97,14 @@
 }
 
 @media screen and (min-width: 768px){
-    .modal__title{
-        font-size: 2.5rem;
-    }
     .content__buttons{
         margin-top: 40px;
     }
     .modal__description{
         width: calc(100% - 3rem);
+        .modal__title{
+            font-size: 2.5rem;
+        }
         .modal__img{
             width: 500px;
             height: 260px;

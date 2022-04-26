@@ -52,6 +52,8 @@
     background: #5855ff;
     padding: 1rem;
     border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
     transition: background .3s ease-in-out;
     &:hover{
         background: #2209ad;
@@ -73,18 +75,18 @@
 .subtitle{
     font-size: 1.2rem;
     font-weight: bold;
-    color: #fff;
+    // color: #fff;
     margin: 10px 0;
 }
 .subtitle2{
     font-size: 1rem;
     font-weight: bold;
-    color: #fff;
+    // color: #fff;
     margin-bottom: 10px;
 }
 .decoration{
     font-size: 1.3rem;
-    text-decoration: 5px underline wavy #5855ff;
+    // text-decoration: 5px underline wavy #5855ff;
     margin-bottom: 20px;
 }
 .about__list{
@@ -120,6 +122,7 @@
         height: 10px;
         border-radius: 5px;
         background: #5855ff;
+        transition: background .3s ease-in-out;
         &:hover{
             cursor: pointer;
         }

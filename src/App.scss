@@ -2,12 +2,518 @@
   text-align: center;
   width: 100%;
   min-height: 100vh;
-  background: #0F044C;
+  background: #0f044c;
   color: #fff;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
-h1,h2,h3,h4,h5,h6{
-  font-family: 'Roboto', sans-serif;
+.theme__dark {
+  $background-primary: #000;
+  $background-secondary: #222;
+  $color-primary: #fff;
+  $color-secondary: #6c6aff;
+  background-color: $background-primary;
+  $color-shadow: #555;
+  color: $color-primary;
+  // estilos para el navbar
+  .container__nav {
+    background-color: $background-secondary;
+    box-shadow: 0px 5px 5px $color-shadow;
+    li a {
+      &.active {
+        color: $color-secondary;
+      }
+    }
+    li a:hover {
+      color: $color-secondary;
+    }
+  }
+  // estilos para las cards
+  .card__project {
+    background: $background-secondary;
+    &:hover {
+      box-shadow: 0px 5px 5px $color-shadow;
+    }
+  }
+  .animate__icon {
+    path {
+      stroke: #333;
+    }
+  }
+  // estilos para about page
+  .box {
+    border: 5px solid $background-secondary;
+  }
+  .link__download {
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+      color: $color-primary;
+    }
+  }
+  .about__list {
+    .bar__content {
+      background: $background-secondary;
+    }
+  }
+  // estilos para el bottom bar
+  .bottom__bar li a {
+    background: $background-secondary;
+    &.active {
+      background: $color-shadow;
+    }
+  }
+  // estilos para el contact page
+  .list__item{
+    &:hover {
+      outline: 3px solid $color-shadow;
+    }
+  }
+  .btn__clipboard{
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+    }
+  }
+  .contact__form .form__input input,
+  .contact__form .form__input textarea{
+    background: $color-shadow;
+  }
+  .contact__form button{
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+    }
+  }
+}
+
+.theme__ligth {
+  $background-primary: #f7f5f2;
+  $background-secondary: #dfdfde;
+  $color-primary: #000;
+  $color-secondary: #6c6aff;
+  $color-shadow: #888;
+  background-color: $background-primary;
+  color: $color-primary;
+  .container__nav {
+    background-color: $background-secondary;
+    box-shadow: 0px 5px 5px $color-shadow;
+    li a {
+      color: $color-secondary;
+      &.active {
+        color: #0f044c;
+      }
+    }
+    li a:hover {
+      color: #0f044c;
+    }
+  }
+  .card__project {
+    background: $background-secondary;
+    color: $color-primary;
+    &:hover {
+      box-shadow: $color-shadow;
+    }
+  }
+  .list__item .list__content input {
+    color: $color-primary;
+  }
+  .animate__icon {
+    path {
+      stroke: #333;
+    }
+  }
+  // estilos para about page
+  .box {
+    border: 5px solid $background-secondary;
+  }
+  .link__download {
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+      color: $color-primary;
+    }
+  }
+  .about__list {
+    .bar__content {
+      background: $background-secondary;
+    }
+  }
+  // estilos para el bottom bar
+  .bottom__bar li a {
+    background: $background-secondary;
+    color: $color-shadow;
+    &.active {
+      color: $background-primary;
+      background: $color-shadow;
+    }
+  }
+  // estilos para el contact page
+  .list__item{
+    &:hover {
+      outline: 3px solid $color-shadow;
+    }
+  }
+  .btn__clipboard{
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+    }
+  }
+  .contact__form .form__input input,
+  .contact__form .form__input textarea{
+    background: $color-shadow;
+  }
+  .contact__form button{
+    background: $color-shadow;
+    &:hover {
+      background: darken($color:$color-shadow, $amount: 20%);
+    }
+  }
+}
+.theme__purple {
+  $background-primary: #0f044c;
+  $background-secondary: #5855ff;
+  $color-primary: #fff;
+  background-color: $background-primary;
+  $color-shadow: #6c6aff;
+  color: $color-primary;
+  .container__nav {
+    background-color: $background-secondary;
+    box-shadow: 0px 5px 5px $color-shadow;
+    li a {
+      &.active {
+        color: #0f044c;
+      }
+    }
+    li a:hover {
+      color: #0f044c;
+    }
+  }
+  .card__project {
+    background: $background-secondary;
+    &:hover {
+      box-shadow: 0px 5px 5px $color-shadow;
+    }
+  }
+  // estilos para about page
+  .box {
+    border: 5px solid $background-secondary;
+  }
+  .link__download {
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+      color: $color-primary;
+    }
+  }
+  .about__list {
+    .bar__content {
+      background: $background-secondary;
+    }
+  }
+  // estilos para el bottom bar
+  .bottom__bar li a {
+    background: $background-secondary;
+    &.active {
+      background: $color-shadow;
+    }
+  }
+}
+.theme__blue {
+  $background-primary: #070d59;
+  $background-secondary: #1f3c88;
+  $color-primary: #fff;
+  background-color: $background-primary;
+  $color-shadow: #5893d4;
+  color: $color-primary;
+  .container__nav {
+    background-color: $background-secondary;
+    box-shadow: 0px 5px 5px $color-shadow;
+    li a {
+      &.active {
+        color: #0f044c;
+      }
+    }
+    li a:hover {
+      color: #0f044c;
+    }
+  }
+  .card__project {
+    background: $background-secondary;
+    &:hover {
+      box-shadow: 0px 5px 5px $color-shadow;
+    }
+  }
+  // estilos para about page
+  .box {
+    border: 5px solid $background-secondary;
+  }
+  .link__download {
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+      color: $color-primary;
+    }
+  }
+  .about__list {
+    .bar__content {
+      background: $background-secondary;
+    }
+  }
+  // estilos para el bottom bar
+  .bottom__bar li a {
+    background: $background-secondary;
+    &.active {
+      background: $color-shadow;
+    }
+  }
+  // estilos para el contact page
+  .list__item{
+    &:hover {
+      outline: 3px solid $color-shadow;
+    }
+  }
+  .btn__clipboard{
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+    }
+  }
+  .contact__form .form__input input,
+  .contact__form .form__input textarea{
+    background: $color-shadow;
+  }
+  .contact__form button{
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+    }
+  }
+}
+.theme__red {
+  $background-primary: #872341;
+  $background-secondary: #be3144;
+  $color-primary: #fff;
+  background-color: $background-primary;
+  $color-shadow: #be3144;
+  color: $color-primary;
+  .container__nav {
+    background-color: $background-secondary;
+    box-shadow: 0px 5px 5px $color-shadow;
+    li a {
+      &.active {
+        color: #0f044c;
+      }
+    }
+    li a:hover {
+      color: #0f044c;
+    }
+  }
+  .card__project {
+    background: $background-secondary;
+    &:hover {
+      box-shadow: 0px 5px 5px $color-shadow;
+    }
+  }
+  .box {
+    border: 5px solid $background-secondary;
+  }
+  .link__download {
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+      color: $color-primary;
+    }
+  }
+  .about__list {
+    .bar__content {
+      background: $background-secondary;
+    }
+  }
+  // estilos para el bottom bar
+  .bottom__bar li a {
+    background: $background-secondary;
+    &.active {
+      background: $color-shadow;
+    }
+  }
+  // estilos para el contact page
+  .list__item{
+    &:hover {
+      outline: 3px solid $color-shadow;
+    }
+  }
+  .btn__clipboard{
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+    }
+  }
+  .contact__form .form__input input,
+  .contact__form .form__input textarea{
+    background: $color-shadow;
+  }
+  .contact__form button{
+    background: $background-secondary;
+    &:hover {
+      background: darken($color:  $background-secondary, $amount: 10%);
+    }
+  }
+}
+.theme__green {
+  $background-primary: #28475c;
+  $background-secondary: #2f8886;
+  $color-primary: #fff;
+  background-color: $background-primary;
+  $color-shadow: #84c69b;
+  color: $color-primary;
+  .container__nav {
+    background-color: $background-secondary;
+    box-shadow: 0px 5px 5px $color-shadow;
+    li a {
+      &.active {
+        color: #0f044c;
+      }
+    }
+    li a:hover {
+      color: #0f044c;
+    }
+  }
+  .card__project {
+    background: $background-secondary;
+    &:hover {
+      box-shadow: 0px 5px 5px $color-shadow;
+    }
+  }
+  // estilos para about page
+  .box {
+    border: 5px solid $background-secondary;
+  }
+  .link__download {
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+      color: $color-primary;
+    }
+  }
+  .about__list {
+    .bar__content {
+      background: $background-secondary;
+    }
+  }
+  // estilos para el bottom bar
+  .bottom__bar li a {
+    background: $background-secondary;
+    &.active {
+      background: $color-shadow;
+    }
+  }
+  // estilos para el contact page
+  .list__item{
+    &:hover {
+      outline: 3px solid $color-shadow;
+    }
+  }
+  .btn__clipboard{
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+    }
+  }
+  .contact__form .form__input input,
+  .contact__form .form__input textarea{
+    background: $color-shadow;
+  }
+  .contact__form button{
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+    }
+  }
+}
+.theme__yellow {
+  $background-primary: #cf7500;
+  $background-secondary: #f0a500;
+  $color-primary: #fff;
+  background-color: $background-primary;
+  $color-shadow: #f0c929;
+  color: $color-primary;
+  .container__nav {
+    background-color: $background-secondary;
+    box-shadow: 0px 5px 5px $color-shadow;
+    li a {
+      &.active {
+        color: #0f044c;
+      }
+    }
+    li a:hover {
+      color: #0f044c;
+    }
+  }
+  .card__project {
+    background: $background-secondary;
+    &:hover {
+      box-shadow: 0px 5px 5px $color-shadow;
+    }
+  }
+  // estilos para about page
+  .box {
+    border: 5px solid $background-secondary;
+  }
+  .link__download {
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+      color: $color-primary;
+    }
+  }
+  .about__list {
+    .bar__content {
+      background: $background-secondary;
+    }
+  }
+  // estilos para el bottom bar
+  .bottom__bar li a {
+    background: $background-secondary;
+    &.active {
+      background: $color-shadow;
+    }
+  }
+  // estilos para el contact page
+  .list__item{
+    &:hover {
+      outline: 3px solid $color-shadow;
+    }
+  }
+  .btn__clipboard{
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+    }
+  }
+  .contact__form .form__input input,
+  .contact__form .form__input textarea{
+    background: $color-shadow;
+  }
+  .contact__form button{
+    background: $background-secondary;
+    &:hover {
+      background: $color-shadow;
+    }
+  }
+  .error{
+    color: $color-primary;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
   margin: 0;
   padding: 0;
   font-size: 16px;
@@ -16,14 +522,16 @@ h1,h2,h3,h4,h5,h6{
 body {
   background: #333;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+@import url("./components/ui/Navbar/Navbar.scss");

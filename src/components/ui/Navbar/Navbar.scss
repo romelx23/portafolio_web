@@ -7,6 +7,7 @@
     padding: 1rem 1.5rem;
     background-color: #5855ff;
     box-shadow: 0px 5px 5px #6c6aff;
+    transition: background-color 0.3s ease-in-out;
 }
 
 .container__nav li{
@@ -29,6 +30,11 @@
     margin-right: 1rem;
     transform: scale(0);
     display: none;
+}
+
+.container__nav li.select{
+    transform: scale(1);
+    display: block;
 }
 
 .container__nav li a:hover{

@@ -170,6 +170,12 @@
       background: darken($color:$color-shadow, $amount: 20%);
     }
   }
+  .select__bg{
+    .btn__select{
+      color: #333;
+      border: 1px solid $color-shadow;
+    }
+  }
 }
 .theme__purple {
   $background-primary: #0f044c;

@@ -138,6 +138,20 @@
                 
                 "Context API"
             ]
+        },
+        {
+            "id":11,
+            "name":"Coffe App",
+            "description":"Aplicación para comprar café y pan ",
+            "url":"https://compassionate-ptolemy-48b5a8.netlify.app/",
+            "photUrl":["https://media.discordapp.net/attachments/839620709517230081/968518534168739880/unknown.png?width=1330&height=676","https://media.discordapp.net/attachments/839620709517230081/968518578418614342/unknown.png?width=1326&height=676","https://media.discordapp.net/attachments/839620709517230081/968518676712144966/unknown.png?width=1343&height=676","https://media.discordapp.net/attachments/839620709517230081/968518910469091348/unknown.png?width=1361&height=676","https://media.discordapp.net/attachments/839620709517230081/968518979226316881/unknown.png?width=1343&height=676"],
+            "repoUrl":"https://github.com/romelx23/coffee-app",
+            "technologies":[
+                "React",
+                "typeScript",
+                "Tailwind",
+                "Context API"
+            ]
         }
     ]
 }

@@ -41,7 +41,7 @@
     }
   }
   // estilos para about page
-  .box {
+  .avatar {
     border: 5px solid $background-secondary;
   }
   .link__download {
@@ -64,22 +64,22 @@
     }
   }
   // estilos para el contact page
-  .list__item{
+  .list__item {
     &:hover {
       outline: 3px solid $color-shadow;
     }
   }
-  .btn__clipboard{
+  .btn__clipboard {
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
     }
   }
   .contact__form .form__input input,
-  .contact__form .form__input textarea{
+  .contact__form .form__input textarea {
     background: $color-shadow;
   }
-  .contact__form button{
+  .contact__form button {
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
@@ -92,6 +92,7 @@
   $background-secondary: #dfdfde;
   $color-primary: #000;
   $color-secondary: #6c6aff;
+  $color-tertiary: #f7f5f2;
   $color-shadow: #888;
   background-color: $background-primary;
   color: $color-primary;
@@ -124,14 +125,15 @@
     }
   }
   // estilos para about page
-  .box {
+  .avatar {
     border: 5px solid $background-secondary;
   }
   .link__download {
     background: $background-secondary;
+    color: $color-primary;
     &:hover {
+      color: $color-tertiary;
       background: $color-shadow;
-      color: $color-primary;
     }
   }
   .about__list {
@@ -149,29 +151,29 @@
     }
   }
   // estilos para el contact page
-  .list__item{
+  .list__item {
     &:hover {
       outline: 3px solid $color-shadow;
     }
   }
-  .btn__clipboard{
+  .btn__clipboard {
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
     }
   }
   .contact__form .form__input input,
-  .contact__form .form__input textarea{
+  .contact__form .form__input textarea {
     background: $color-shadow;
   }
-  .contact__form button{
+  .contact__form button {
     background: $color-shadow;
     &:hover {
-      background: darken($color:$color-shadow, $amount: 20%);
+      background: darken($color: $color-shadow, $amount: 20%);
     }
   }
-  .select__bg{
-    .btn__select{
+  .select__bg {
+    .btn__select {
       color: #333;
       border: 1px solid $color-shadow;
     }
@@ -203,7 +205,7 @@
     }
   }
   // estilos para about page
-  .box {
+  .avatar {
     border: 5px solid $background-secondary;
   }
   .link__download {
@@ -252,7 +254,7 @@
     }
   }
   // estilos para about page
-  .box {
+  .avatar {
     border: 5px solid $background-secondary;
   }
   .link__download {
@@ -275,22 +277,22 @@
     }
   }
   // estilos para el contact page
-  .list__item{
+  .list__item {
     &:hover {
       outline: 3px solid $color-shadow;
     }
   }
-  .btn__clipboard{
+  .btn__clipboard {
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
     }
   }
   .contact__form .form__input input,
-  .contact__form .form__input textarea{
+  .contact__form .form__input textarea {
     background: $color-shadow;
   }
-  .contact__form button{
+  .contact__form button {
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
@@ -322,7 +324,7 @@
       box-shadow: 0px 5px 5px $color-shadow;
     }
   }
-  .box {
+  .avatar {
     border: 5px solid $background-secondary;
   }
   .link__download {
@@ -345,25 +347,25 @@
     }
   }
   // estilos para el contact page
-  .list__item{
+  .list__item {
     &:hover {
       outline: 3px solid $color-shadow;
     }
   }
-  .btn__clipboard{
+  .btn__clipboard {
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
     }
   }
   .contact__form .form__input input,
-  .contact__form .form__input textarea{
+  .contact__form .form__input textarea {
     background: $color-shadow;
   }
-  .contact__form button{
+  .contact__form button {
     background: $background-secondary;
     &:hover {
-      background: darken($color:  $background-secondary, $amount: 10%);
+      background: darken($color: $background-secondary, $amount: 10%);
     }
   }
 }
@@ -393,7 +395,7 @@
     }
   }
   // estilos para about page
-  .box {
+  .avatar {
     border: 5px solid $background-secondary;
   }
   .link__download {
@@ -416,22 +418,22 @@
     }
   }
   // estilos para el contact page
-  .list__item{
+  .list__item {
     &:hover {
       outline: 3px solid $color-shadow;
     }
   }
-  .btn__clipboard{
+  .btn__clipboard {
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
     }
   }
   .contact__form .form__input input,
-  .contact__form .form__input textarea{
+  .contact__form .form__input textarea {
     background: $color-shadow;
   }
-  .contact__form button{
+  .contact__form button {
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
@@ -464,7 +466,7 @@
     }
   }
   // estilos para about page
-  .box {
+  .avatar {
     border: 5px solid $background-secondary;
   }
   .link__download {
@@ -487,28 +489,28 @@
     }
   }
   // estilos para el contact page
-  .list__item{
+  .list__item {
     &:hover {
       outline: 3px solid $color-shadow;
     }
   }
-  .btn__clipboard{
+  .btn__clipboard {
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
     }
   }
   .contact__form .form__input input,
-  .contact__form .form__input textarea{
+  .contact__form .form__input textarea {
     background: $color-shadow;
   }
-  .contact__form button{
+  .contact__form button {
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
     }
   }
-  .error{
+  .error {
     color: $color-primary;
   }
 }
@@ -538,6 +540,21 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+// estilos para el scroll bar
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #9f9f9f;
+}
+::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 @import url("./components/ui/Navbar/Navbar.scss");

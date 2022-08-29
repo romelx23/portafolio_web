@@ -12,7 +12,7 @@ interface Tech {
 
 export const Chips: FC<Props> = ({ chip }) => {
   const [select, setSelect] = useState<Tech[]>([]);
-  const technologies:Tech[] = [
+  const technologies: Tech[] = [
     {
       name: "React",
       url: "https://res.cloudinary.com/react-romel/image/upload/v1650073099/icons/bxl-react.svg_elk3df.svg",
@@ -59,9 +59,14 @@ export const Chips: FC<Props> = ({ chip }) => {
       background: "#dac318",
     },
     {
-        name: "Context API",
-        url: "https://res.cloudinary.com/react-romel/image/upload/v1650073099/icons/bxl-react.svg_elk3df.svg",
-        background: "#2385f5",
+      name: "Context API",
+      url: "https://res.cloudinary.com/react-romel/image/upload/v1650073099/icons/bxl-react.svg_elk3df.svg",
+      background: "#2385f5",
+    },
+    {
+      name: "Vue",
+      url: "https://res.cloudinary.com/react-romel/image/upload/v1650073101/icons/bxl-vuejs.svg_nqh4he.svg",
+      background: "#4fc08d"
     }
   ];
 
@@ -121,16 +126,16 @@ export const Chips: FC<Props> = ({ chip }) => {
 
   return (
     <>
-        {
-            select.map((tech) => (
-                <div className="chip" key={tech.name} style={{background:tech.background}}>
-                    <img src={tech.url} alt={tech.name} 
-                      className="chip-icon"
-                    />
-                    <span>{tech.name}</span>
-                </div>
-            ))
-        }
+      {
+        select.map((tech) => (
+          <div className="chip" key={tech.name} style={{ background: tech.background }}>
+            <img src={tech.url} alt={tech.name}
+              className="chip-icon"
+            />
+            <span>{tech.name}</span>
+          </div>
+        ))
+      }
     </>
   );
 };

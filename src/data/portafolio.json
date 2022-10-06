@@ -44,7 +44,7 @@
     {
       "id": 4,
       "name": "Food App",
-      "description": "Aplicación de compra de comida",
+      "description": "Aplicación de comidas diseñada con Sass,React, manejo del estado con Context API y manejo de rutas con React Router",
       "url": "https://61eccce1b0f7b624d5039035--dazzling-mestorf-6350a2.netlify.app",
       "photUrl": [
         "https://res.cloudinary.com/react-romel/image/upload/v1645397669/food-app_bo5iir.png",
@@ -130,7 +130,7 @@
         "https://media.discordapp.net/attachments/839620709517230081/966811534435180554/unknown.png?width=1352&height=676"
       ],
       "repoUrl": "https://github.com/romelx23/pokemon-static",
-      "technologies": ["React", "typeScript", "Context API"]
+      "technologies": ["React", "typeScript", "Context API", "Next"]
     },
     {
       "id": 11,
@@ -193,6 +193,133 @@
       ],
       "repoUrl": "https://github.com/romelx23/anime-tracker",
       "technologies": ["Vue", "JavaScript", "Tailwind"]
+    },
+    {
+      "id": 16,
+      "name": "Futbol App",
+      "description": "Aplicación para ordenar tu equipo de futbol, usando drag and drop",
+      "url": "https://friendly-faun-156b70.netlify.app/",
+      "photUrl": [
+        "https://media.discordapp.net/attachments/839620709517230081/1025253843635810404/unknown.png?width=1250&height=676",
+        "https://media.discordapp.net/attachments/839620709517230081/1025254128550690846/unknown.png?width=1250&height=676",
+        "https://media.discordapp.net/attachments/839620709517230081/1025254163526975498/unknown.png?width=1250&height=676",
+        "https://media.discordapp.net/attachments/839620709517230081/1025254240068841574/unknown.png?width=1259&height=676"
+      ],
+      "repoUrl": "https://github.com/romelx23/vue-football",
+      "technologies": ["Vue", "JavaScript", "Tailwind"]
+    },
+    {
+      "id": 17,
+      "name": "Votation App",
+      "description": "Aplicación para crear votaciones en tiempo real",
+      "url": "https://votation-frontend-p1697lqu5-romelx23.vercel.app/",
+      "photUrl": [
+        "https://media.discordapp.net/attachments/839620709517230081/1025256689714348083/unknown.png?width=713&height=385",
+        "https://media.discordapp.net/attachments/839620709517230081/1025256786455965807/unknown.png?width=713&height=385",
+        "https://media.discordapp.net/attachments/839620709517230081/1025257609726537828/unknown.png?width=713&height=387",
+        "https://media.discordapp.net/attachments/839620709517230081/1025257754505519146/unknown.png?width=713&height=386",
+        "https://media.discordapp.net/attachments/839620709517230081/1025257832402124890/unknown.png?width=713&height=385",
+        "https://media.discordapp.net/attachments/839620709517230081/1025257993752805436/unknown.png?width=713&height=384",
+        "https://media.discordapp.net/attachments/839620709517230081/1025258060819738624/unknown.png?width=713&height=387"
+      ],
+      "repoUrl": "https://github.com/romelx23/votation-frontend",
+      "technologies": [
+        "React",
+        "Redux",
+        "Tailwind",
+        "TypeScript",
+        "Node",
+        "Express",
+        "MongoDB"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Covid Traker Vue",
+      "description": "Aplicación para ver los casos de covid en el mundo",
+      "url": "https://clever-sunshine-c2c1e2.netlify.app/#/",
+      "photUrl": [
+        "https://media.discordapp.net/attachments/839620709517230081/1025259707088248903/unknown.png?width=745&height=403",
+        "https://media.discordapp.net/attachments/839620709517230081/1025259843969363978/unknown.png?width=745&height=404",
+        "https://media.discordapp.net/attachments/839620709517230081/1025260055756550284/unknown.png?width=745&height=404"
+      ],
+      "repoUrl": "https://github.com/romelx23/covid-tracker-vue",
+      "technologies": ["Vue", "Pinia", "Tailwind", "TypeScript"]
+    },
+    {
+      "id": 19,
+      "name": "Clon de YT",
+      "description": "Aplicación para ver videos de youtube, usando la API de youtube de RapidAPI",
+      "url": "https://yt-clone-react.vercel.app/",
+      "photUrl": [
+        "https://media.discordapp.net/attachments/839620709517230081/1025264060243136563/unknown.png?width=745&height=400"
+      ],
+      "repoUrl": "https://github.com/romelx23/yt-clone-react",
+      "technologies": ["React", "Context API", "Tailwind", "TypeScript"]
+    },
+    {
+      "id": 20,
+      "name": "Juego de Adivina el pokemon con chat",
+      "description": "Aplicación para adivinar el pokemon, cuenta con login desplegado en heroku, usa base de datos en mongoDB y chat en tiempo real",
+      "url": "https://pokemon-game-chat.herokuapp.com/",
+      "photUrl": [
+        "https://media.discordapp.net/attachments/839620709517230081/1025264744925503548/unknown.png?width=745&height=404",
+        "https://media.discordapp.net/attachments/839620709517230081/1025264794313437235/unknown.png?width=745&height=403",
+        "https://media.discordapp.net/attachments/839620709517230081/1025264897115815996/unknown.png?width=745&height=403",
+        "https://media.discordapp.net/attachments/839620709517230081/1025264974744014858/unknown.png?width=745&height=403",
+        "https://media.discordapp.net/attachments/839620709517230081/1025265060928557086/unknown.png?width=745&height=404"
+      ],
+      "repoUrl": "https://github.com/romelx23/poke-game-react-node",
+      "technologies": ["React", "Context API", "Tailwind", "TypeScript"]
+    },
+    {
+      "id": 21,
+      "name": "Aplicación de Catálogos",
+      "description": "Aplicación para ver catalogos de productos, usando nextjs y tailwind en el front y nodejs, express y postgres en el back, además de ser PWA y SSR",
+      "url": "https://catalogos-app-hxuc.vercel.app/",
+      "photUrl": [
+        "https://media.discordapp.net/attachments/839620709517230081/1025266302136360971/unknown.png?width=745&height=404"
+      ],
+      "repoUrl": "https://github.com/romelx23/catalogos-app",
+      "technologies": ["Next", "React", "Context API", "Tailwind", "TypeScript"]
+    },
+    {
+      "id": 22,
+      "name": "Aplicación de Gestión de Libros",
+      "description": "Aplicación para gestionar los libros de una biblioteca, agregar autores, manejo de estado con pinia",
+      "url": "https://friendly-faun-156b70.netlify.app/",
+      "photUrl": [
+        "https://media.discordapp.net/attachments/839620709517230081/1025267951617712128/unknown.png?width=745&height=401",
+        "https://media.discordapp.net/attachments/839620709517230081/1025269124273819708/unknown.png?width=745&height=402",
+        "https://media.discordapp.net/attachments/839620709517230081/1025269491040518175/unknown.png?width=745&height=406"
+      ],
+      "repoUrl": "https://github.com/romelx23/books-app-vue",
+      "technologies": ["Vue", "Pinia", "Tailwind", "TypeScript"]
+    },
+    {
+      "id": 23,
+      "name": "Dashboard Game",
+      "description": "Diseño de dashboard para un juego, usando tailwind",
+      "url": "https://resilient-maamoul-1ef4a8.netlify.app",
+      "photUrl": [
+        "https://media.discordapp.net/attachments/839620709517230081/1027455101142581350/unknown.png?width=1337&height=675"
+      ],
+      "repoUrl": "https://github.com/romelx23/dashboard-game-react",
+      "technologies": ["React", "Tailwind", "TypeScript"]
+    },
+    {
+      "id": 24,
+      "name": "Pokemon Store",
+      "description": "Aplicación para comprar pokemons, usando la PokeApi",
+      "url": "https://friendly-faun-156b70.netlify.app/",
+      "photUrl": [
+        "https://media.discordapp.net/attachments/839620709517230081/1027455457171865660/unknown.png?width=1330&height=676",
+        "https://media.discordapp.net/attachments/839620709517230081/1027455512113057833/unknown.png?width=1332&height=676",
+        "https://media.discordapp.net/attachments/839620709517230081/1027455577560973382/unknown.png?width=1348&height=676",
+        "https://media.discordapp.net/attachments/839620709517230081/1027455700856733766/unknown.png?width=1365&height=676"
+      ],
+      "repoUrl": "https://github.com/romelx23/pokemon-store-react",
+      "technologies": ["React", "Context API", "Nes.css", "TypeScript"]
     }
   ]
 }

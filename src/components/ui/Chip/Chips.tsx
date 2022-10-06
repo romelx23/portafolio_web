@@ -67,6 +67,16 @@ export const Chips: FC<Props> = ({ chip }) => {
       name: "Vue",
       url: "https://res.cloudinary.com/react-romel/image/upload/v1650073101/icons/bxl-vuejs.svg_nqh4he.svg",
       background: "#4fc08d"
+    },
+    {
+      name: "Next",
+      url: "https://media.discordapp.net/attachments/839620709517230081/1027585345623183400/unknown.png",
+      background: "#000000"
+    },
+    {
+      name: "Pinia",
+      url: "https://media.discordapp.net/attachments/839620709517230081/1027585552947626094/unknown.png",
+      background: "#ff8127"
     }
   ];
 

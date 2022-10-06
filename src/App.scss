@@ -85,6 +85,12 @@
       background: $color-shadow;
     }
   }
+  .btn-top {
+    background-color: $color-secondary;
+    &:hover {
+      background-color: darken($color: $color-secondary, $amount: 10);
+    }
+  }
 }
 
 .theme__ligth {
@@ -178,6 +184,12 @@
       border: 1px solid $color-shadow;
     }
   }
+  .btn-top {
+    background-color: $color-secondary;
+    &:hover {
+      background-color: darken($color: $color-secondary, $amount: 10);
+    }
+  }
 }
 .theme__purple {
   $background-primary: #0f044c;
@@ -225,6 +237,12 @@
     background: $background-secondary;
     &.active {
       background: $color-shadow;
+    }
+  }
+  .btn-top {
+    background-color: $color-shadow;
+    &:hover {
+      background-color: darken($color: $color-shadow, $amount: 10);
     }
   }
 }
@@ -298,6 +316,12 @@
       background: $color-shadow;
     }
   }
+  .btn-top {
+    background-color: $color-shadow;
+    &:hover {
+      background-color: darken($color: $color-shadow, $amount: 10);
+    }
+  }
 }
 .theme__red {
   $background-primary: #872341;
@@ -366,6 +390,12 @@
     background: $background-secondary;
     &:hover {
       background: darken($color: $background-secondary, $amount: 10%);
+    }
+  }
+  .btn-top {
+    background-color: $color-shadow;
+    &:hover {
+      background-color: darken($color: $color-shadow, $amount: 10);
     }
   }
 }
@@ -437,6 +467,12 @@
     background: $background-secondary;
     &:hover {
       background: $color-shadow;
+    }
+  }
+  .btn-top {
+    background-color: $color-shadow;
+    &:hover {
+      background-color: darken($color: $color-shadow, $amount: 10);
     }
   }
 }
@@ -512,6 +548,12 @@
   }
   .error {
     color: $color-primary;
+  }
+  .btn-top {
+    background-color: $color-shadow;
+    &:hover {
+      background-color: darken($color: $color-shadow, $amount: 10);
+    }
   }
 }
 

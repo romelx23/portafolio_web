@@ -6,6 +6,7 @@ import "./Layout.scss";
 import { Modal } from '../../ui/Modal/Modal';
 import { ModalDescription } from '../../ui/ModalDescription/ModalDescription';
 import { UIContext } from '../../../context/ui/UIContext';
+import { ButtonTop } from "../../ui";
 interface LayoutProps {
   children: React.ReactNode;
   title?: string;
@@ -13,7 +14,7 @@ interface LayoutProps {
 }
 
 export const Layout: FC<LayoutProps> = ({ children, title, image }) => {
-  const {color}=useContext(UIContext);
+  const { color } = useContext(UIContext);
   return (
     <div className={`app ${color}`}>
       <Navbar />
@@ -22,6 +23,7 @@ export const Layout: FC<LayoutProps> = ({ children, title, image }) => {
       <Modal>
         <ModalDescription />
       </Modal>
+      <ButtonTop />
     </div>
   );
 };

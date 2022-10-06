@@ -4,9 +4,16 @@ import { ModalContext } from "../../../context/modal/ModalContext";
 import { PortafolioContext } from "../../../context/portfolio/PortafolioContext";
 import { Chips } from "../Chip/Chips";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 // Import Swiper styles
 import "swiper/css";
+import { ImageCard } from "../ImageCard/ImageCard";
 
 export const ModalDescription = () => {
   const { toggleModal } = useContext(ModalContext);
@@ -52,7 +59,10 @@ export const ModalDescription = () => {
       </div>
       <Swiper
         className="modal__slider"
+        modules={[Navigation, Pagination, Scrollbar, A11y]}
         spaceBetween={50}
+        navigation
+        pagination={{ clickable: true }}
         //  slidesPerView={2}
         breakpoints={{
           // when window width is >= 640px
@@ -72,18 +82,10 @@ export const ModalDescription = () => {
       >
         {image ? (
           image.map((img) => (
-            <SwiperSlide key={img} 
+            <SwiperSlide key={img}
               className="modal__slide"
-            > 
-                <img
-                  src={
-                    image
-                      ? img
-                      : "https://pbs.twimg.com/media/FQTTT-AXMAc8_q0?format=jpg&name=large"
-                  }
-                  alt="modal__project"
-                  className="modal__img"
-                />
+            >
+              <ImageCard url={img} />
             </SwiperSlide>
           ))
         ) : (
